@@ -1,0 +1,11 @@
+prefix=/Users/alindaarnold/Desktop/Christian/env
+exec_prefix=/Users/alindaarnold/Desktop/Christian/env
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libbrotlicommon
+URL: https://github.com/google/brotli
+Description: Brotli common dictionary library
+Version: 1.0.7
+Libs: -L${libdir} -lbrotlicommon
+Cflags: -I${includedir}
